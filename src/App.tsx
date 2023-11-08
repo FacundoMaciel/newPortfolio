@@ -1,3 +1,4 @@
+import Header from "./components/header/Header"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
       <main>
-       
+       <Header />
       </main>
     </>
   )
