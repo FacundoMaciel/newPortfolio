@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="flex flex-row justify-between items-center w-[100%] md:w-[60%] px-6 pt-2 bg-transparent h-18 fixed z-50">
+            <div className="flex flex-row justify-between items-center w-[100%] md:w-[60%] px-6 pt-2 bg-transparent h-18 fixed z-50 animate-fade animate-once">
                 <figure className="w-12 cursor-pointer mt-2 hover:scale-105 duration-100">
                     <img src={logo} alt="logo" />
                 </figure>

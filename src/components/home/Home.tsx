@@ -13,27 +13,27 @@ const Home = () => {
 
       <aside className="w-[65%] items-end">
         <div className="absolute left-0 bottom-0">
-        <h1 className="text-6xl text-[#232323] font-bold ml-6 mb-10 animate-fade-left animate-once">
+        <h1 className="text-6xl text-[#232323] font-bold ml-6 mb-10 animate-fade-right animate-once animate-delay-500">
           Facundo
           <p className="">
             Maciel
           </p>
         </h1>
           <figure className="flex ml-6">
-            <a href="https://github.com/FacundoMaciel" target="_blank" className="hover:scale-110 duration-200 ease-in-out">
+            <a href="https://github.com/FacundoMaciel" target="_blank" className="animate-fade-up animate-once animate-duration-300 animate-delay-100 hover:scale-110 duration-200 ease-in-out">
               <img src={gitHub} alt="Linked icon to GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/facundo-maciel-desarrollador-fullstack/" target="_blank" className="hover:scale-110 duration-200 ease-in-out">
+            <a href="https://www.linkedin.com/in/facundo-maciel-desarrollador-fullstack/" target="_blank" className="animate-fade-up animate-once animate-duration-700 animate-delay-300 hover:scale-110 duration-200 ease-in-out">
               <img src={linkedIn} alt="Linked icon to LinkedIn" />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=543795575131" target="_blank" className="hover:scale-110 duration-200 ease-in-out">
+            <a href="https://api.whatsapp.com/send?phone=543795575131" target="_blank" className="animate-fade-up animate-once animate-duration-1000 animate-delay-500 hover:scale-110 duration-200 ease-in-out">
               <img src={whatsApp} alt="Linked icon to WhatsApp" />
             </a>
           </figure>
         </div>
       </aside>
 
-      <article>
+      <article className="animate-fade-down animate-once">
         <figure className="flex justify-center items-center bg-[#E4E4E4]">
 
           <img src={button} alt="The show button" className="w-[60px] h-[60px] hover:cursor-pointer hover:scale-105 duration-200 ease-in-out" />
@@ -42,7 +42,7 @@ const Home = () => {
         </figure>
       </article>
 
-      <div className="flex flex-col w-[8%]">
+      <div className="flex flex-col w-[8%] animate-fade-down animate-once">
         <aside className="bg-[#232323] h-full">
           <figure className="flex justify-end">
             <a href="mailto:facundomaciel12@hotmail.com" className="hover:scale-90 duration-200 ease-in-out">
