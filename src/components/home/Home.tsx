@@ -18,7 +18,7 @@ const Home = () => {
       <aside className="w-[65%] items-end">
         <div className="absolute left-0 bottom-0">
           { paragraph && 
-        <p className="h-[140px] text-start text-[#232323] shadow-lg bg-[#E4E4E4] rounded-md justify-center w-[50%] p-2 ml-6 mb-20 font-medium animate-fade-left animate-once animate-ease-in-out">
+        <p className="h-[140px] text-start text-[#232323] shadow-lg bg-[#E4E4E4] rounded-md justify-center w-[50%] p-2 ml-6 mb-20 font-bold animate-fade-left animate-once animate-ease-in-out">
         <strong> HOLA! </strong> 
         <br />
         Soy Facundo desarrollador web fullstack graduado del bootcamp Soy Henry, con experiencia en desarrollo Front End y Back End con tecnologías como <strong> JavaScript, TypeScript, React, HTML, CSS, NodeJS, NestJS </strong> entre otras. 
@@ -26,7 +26,7 @@ const Home = () => {
          Conocimientos en metodología de trabajo ágil <strong> Scrum </strong>
         </p>
           }
-        <h1 className="text-6xl text-[#232323] font-bold ml-6 mb-10 animate-fade-right animate-once animate-delay-500">
+        <h1 className="text-6xl text-[#232323] font-semibold ml-6 mb-10 animate-fade-right animate-once animate-delay-500">
           Facundo
           <p className="">
             Maciel
@@ -35,17 +35,17 @@ const Home = () => {
           <figure className="flex ml-6">
             <a href="https://github.com/FacundoMaciel"
               target="_blank"
-              className="animate-fade-up animate-once animate-duration-300 animate-delay-100">
+              className="animate-fade-up animate-once animate-duration-300 animate-delay-300">
               <img src={gitHub} alt="Linked icon to GitHub" className="hover:scale-110 duration-200 ease-in-out" />
             </a>
             <a href="https://www.linkedin.com/in/facundo-maciel-desarrollador-fullstack/"
               target="_blank"
-              className="animate-fade-up animate-once animate-duration-700 animate-delay-300">
+              className="animate-fade-up animate-once animate-duration-700 animate-delay-500">
               <img src={linkedIn} alt="Linked icon to LinkedIn" className="hover:scale-110 duration-200 ease-in-out" />
             </a>
             <a href="https://api.whatsapp.com/send?phone=543795575131"
               target="_blank"
-              className="animate-fade-up animate-once animate-duration-1000 animate-delay-500">
+              className="animate-fade-up animate-once animate-duration-1000 animate-delay-700">
               <img src={whatsApp} alt="Linked icon to WhatsApp" className="hover:scale-110 duration-200 ease-in-out" />
             </a>
           </figure>
