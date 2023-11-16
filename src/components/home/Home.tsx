@@ -13,7 +13,7 @@ const Home = () => {
   const [paragraph, setParagraph] = useState(false);
 
   return (
-    <section className="flex w-[100%]">
+    <section id="Home" className="flex w-[100%]">
 
       <aside className="w-[65%] items-end">
         <div className="absolute left-0 bottom-0">

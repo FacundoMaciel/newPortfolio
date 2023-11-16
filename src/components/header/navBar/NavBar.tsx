@@ -24,9 +24,11 @@ const Navbar = () => {
     return (
         <nav>
             <div className="flex flex-row justify-between items-center w-[100%] md:w-[60%] pr-6 pt-2 bg-transparent h-18 fixed z-50 animate-fade animate-once">
+                <Link to="Home" smooth duration={500}>
                 <figure className="w-12 cursor-pointer mt-2 hover:scale-105 duration-100 ml-3">
                     <img src={logo} alt="logo" />
                 </figure>
+                </Link>
                 <ul className="flex">
                     {links.map(({ id, link }) => (
                         <li
