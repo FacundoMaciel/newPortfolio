@@ -9,11 +9,11 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            link: "projects",
+            link: "Projects",
         },
         {
             id: 2,
-            link: "contact",
+            link: "Contact",
         },
         {
             id: 3,
