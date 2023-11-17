@@ -2,10 +2,10 @@ import dev from "../../assets/icons/webDeveloperWorking.png"
 
 const About = () => {
   return (
-    <section id="About" className="w-[100%] flex p-5">
-        <aside className="w-[45%]">
-            <figure className="w-[80%] bg-[#E4E4E4] p-10 rounded-2xl">
-                <img src={dev} alt="Developer Image" className="rounded-full shadow-xl" title="Dev working"/>
+    <section id="About" className="w-[100%] flex p-5 mt-20">
+        <aside className="w-[40%]">
+            <figure className="w-[80%]">
+                <img src={dev} alt="Developer Image" className="rounded-xl shadow-xl" title="Dev working"/>
             </figure>
         </aside>
         <aside className="w-[50%]">

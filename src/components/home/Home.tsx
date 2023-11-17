@@ -1,4 +1,5 @@
 import myImage from "../../assets/images/fotoPortada.png"
+import myImage2 from "../../assets/images/fotoPortada2.png"
 import button from "../../assets/icons/centerButton.png"
 import gitHub from "../../assets/icons/iconGitHub.png"
 import linkedIn from "../../assets/icons/iconLinkedin.png"
@@ -53,7 +54,7 @@ const Home = () => {
       </aside>
 
       <article className="animate-fade-down animate-once">
-        <figure className="flex justify-center items-center bg-[#E4E4E4]">
+        <figure className="flex justify-center items-center bg-[#E4E4E4] rounded-xl">
 
           <img 
           id="btn"
@@ -61,20 +62,20 @@ const Home = () => {
           className="w-[60px] h-[60px] hover:cursor-pointer hover:scale-105 duration-200 ease-in-out opacity-90 hover:opacity-100" 
           onClick={() => (setParagraph(!paragraph))}/>
           <img 
-          src={myImage} alt="My Image" 
+          src={myImage2} alt="My Image" 
           className="w-full" />
         </figure>
       </article>
 
       <div className="flex flex-col w-[8%] animate-fade-down animate-once">
-        <aside className="bg-[#232323] h-full">
+        <aside className="bg-[#232323] h-full rounded-xl">
           <figure className="flex justify-end">
             <a href="mailto:facundomaciel12@hotmail.com" className="hover:scale-90 duration-200 ease-in-out">
             <img src={sentEmail} alt="Icon to sent an email" className="p-2"/>
             </a>
           </figure>
         </aside>
-        <aside className="bg-[#FF1D1D] h-full">
+        <aside className="bg-[#FF1D1D] h-full rounded-xl">
           <figure className="flex justify-end">
             <a href="/CV-MacielFacundo-Desarrollador.pdf" download={true} className="hover:scale-90 duration-200 ease-in-out">
             <img src={downloadCV} alt="Download cv icon" className="p-2"/>
