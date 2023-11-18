@@ -18,8 +18,8 @@ const Home = () => {
       <aside className="w-[65%] items-end">
         <div className="absolute left-0 bottom-0">
           { paragraph && 
-        <p className="h-[140px] text-start shadow-md bg-[#E4E4E4] rounded-tl-2xl rounded-br-2xl justify-center w-[50%] p-3 ml-6 mb-20 font-normal animate-fade-left animate-once animate-ease-in-out">
-        <strong> HOLA! </strong> 
+        <p className="h-[140px] text-start bg-[#E4E4E4] rounded-tl-2xl rounded-br-2xl justify-center w-[50%] p-3 ml-6 mb-20 font-normal animate-fade-left animate-once animate-ease-in-out">
+         HOLA! 
         <br />
         Soy Facundo desarrollador web fullstack graduado del bootcamp Soy Henry, con experiencia en desarrollo Front End y Back End con tecnologías como <strong> JavaScript, TypeScript, React, HTML, CSS, NodeJS, NestJS </strong> entre otras. 
         <br />
@@ -56,7 +56,7 @@ const Home = () => {
         <figure className="flex justify-center items-center bg-[#E4E4E4] shadow-xl">
           <img 
           id="btn"
-          src={button} alt="The show button" 
+          src={button} alt="The about me button" 
           className="w-[60px] h-[60px] hover:cursor-pointer hover:scale-105 duration-200 ease-in-out opacity-90 hover:opacity-100" 
           onClick={() => (setParagraph(!paragraph))}/>
           <img 
