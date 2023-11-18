@@ -14,12 +14,11 @@ const Home = () => {
   const [paragraph, setParagraph] = useState(false);
 
   return (
-    <section id="Home" className="flex w-[100%]">
-
+    <section id="Home" className="flex w-[100%] h-auto">
       <aside className="w-[65%] items-end">
         <div className="absolute left-0 bottom-0">
           { paragraph && 
-        <p className="h-[140px] text-start shadow-lg bg-[#E4E4E4] rounded-md justify-center w-[50%] p-2 ml-6 mb-20 font-normal animate-fade-left animate-once animate-ease-in-out">
+        <p className="h-[140px] text-start shadow-md bg-[#E4E4E4] rounded-tl-2xl rounded-br-2xl justify-center w-[50%] p-3 ml-6 mb-20 font-normal animate-fade-left animate-once animate-ease-in-out">
         <strong> HOLA! </strong> 
         <br />
         Soy Facundo desarrollador web fullstack graduado del bootcamp Soy Henry, con experiencia en desarrollo Front End y Back End con tecnologías como <strong> JavaScript, TypeScript, React, HTML, CSS, NodeJS, NestJS </strong> entre otras. 
@@ -53,9 +52,8 @@ const Home = () => {
         </div>
       </aside>
 
-      <article className="animate-fade-down animate-once">
-        <figure className="flex justify-center items-center bg-[#E4E4E4] rounded-xl shadow-xl">
-
+      <article className="flex justify-start top-0 right-0 animate-fade-down animate-once">
+        <figure className="flex justify-center items-center bg-[#E4E4E4] shadow-xl">
           <img 
           id="btn"
           src={button} alt="The show button" 
@@ -68,14 +66,14 @@ const Home = () => {
       </article>
 
       <div className="flex flex-col w-[8%] animate-fade-down animate-once">
-        <aside className="bg-[#232323] h-full rounded-xl">
+        <aside className="bg-[#232323] h-full ">
           <figure className="flex justify-end">
             <a href="mailto:facundomaciel12@hotmail.com" className="hover:scale-90 duration-200 ease-in-out">
             <img src={sentEmail} alt="Icon to sent an email" className="p-2" title="Send me an email"/>
             </a>
           </figure>
         </aside>
-        <aside className="bg-[#FF1D1D] h-full rounded-xl">
+        <aside className="bg-[#FF1D1D] h-full ">
           <figure className="flex justify-end">
             <a href="/CV-MacielFacundo-Desarrollador.pdf" download={true} className="hover:scale-90 duration-200 ease-in-out">
             <img src={downloadCV} alt="Download cv icon" className="p-2" title="Download my CV"/>
