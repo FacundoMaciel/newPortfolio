@@ -15,6 +15,9 @@ function App() {
         <hr className="w-[85%] h-px my-8 border-0 rounded bg-gray-300" />
       </div>
        <About />
+       <div className="inline-flex items-center justify-center w-full mt-10">
+        <hr className="w-[85%] h-px my-8 border-0 rounded bg-gray-300" />
+      </div>
        <Projects />
       </main>
     </>
